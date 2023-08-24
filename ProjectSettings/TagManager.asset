@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Logic
   - ScoreManager
+  - Ground
   layers:
   - Default
   - TransparentFX

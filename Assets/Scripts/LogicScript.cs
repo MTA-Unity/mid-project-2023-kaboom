@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class LogicScript : MonoBehaviour
 {
-    private bool isGameOn = false;
+    public bool isGameOn = false;
     public ScoreManager scoreManager;
     public int playerScore = 0;
     public GameObject playButton;

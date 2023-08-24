@@ -18,7 +18,7 @@ public class MiddlePipeScript : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.layer == 3)
+        if (other.gameObject.layer == 3 && logic.isGameOn )
         {
             logic.AddScore(1); 
         }

@@ -15,8 +15,7 @@ public class MainMenuController : MonoBehaviour
     {
         _playButton.onClick.AddListener(StartGame);   
         _quitButton.onClick.AddListener(QuitGame);   
-        _scoreButton.onClick.AddListener(ShowScore);   
-        // _closeScoreButton.onClick.AddListener(CloseScore);   
+        _scoreButton.onClick.AddListener(ShowScore);  
         
         _scorePanel.SetActive(false);
         _closeScoreButton.SetActive(false);
@@ -53,7 +52,6 @@ public class MainMenuController : MonoBehaviour
     {
         _playButton.onClick.RemoveListener(StartGame);   
         _quitButton.onClick.RemoveListener(QuitGame);   
-        _scoreButton.onClick.RemoveListener(ShowScore);   
-        // _closeScoreButton.onClick.RemoveListener(CloseScore);  
+        _scoreButton.onClick.RemoveListener(ShowScore);
     }
 }
